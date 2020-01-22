@@ -98,10 +98,10 @@ func (s *Service) DeleteUser(ctx context.Context, userIDOrPrincipal string) erro
 	return err
 }
 
-// GetUser returns a single user by id or principal name, with the Microsoft default fields
-// provided, identical to those specified in UserDefaultFields.
+// GetUser returns a single user by ID or principal name, with the Microsoft default fields
+// provided.
 func (s *Service) GetUser(ctx context.Context, userIDOrPrincipal string) (User, error) {
-	return s.GetUserWithFields(ctx, userIDOrPrincipal, UserDefaultFields)
+	return s.GetUserWithFields(ctx, userIDOrPrincipal, nil)
 }
 
 // GetUserWithFields returns a single user by id or principal name. You need to specify a list of
