@@ -1,11 +1,11 @@
 build:
-	vgo build github.com/mhoc/msgoraph
-	vgo build github.com/mhoc/msgoraph/client
-	vgo build github.com/mhoc/msgoraph/common
-	vgo build github.com/mhoc/msgoraph/internal
-	vgo build github.com/mhoc/msgoraph/scopes
-	vgo build github.com/mhoc/msgoraph/users
+	vgo build github.com/dcormier/msgoraph
+	vgo build github.com/dcormier/msgoraph/client
+	vgo build github.com/dcormier/msgoraph/common
+	vgo build github.com/dcormier/msgoraph/internal
+	vgo build github.com/dcormier/msgoraph/scopes
+	vgo build github.com/dcormier/msgoraph/users
 
 docs:
-	@echo "http://localhost:6060/pkg/github.com/mhoc/msgoraph/"
+	@echo "http://localhost:6060/pkg/github.com/dcormier/msgoraph/"
 	godoc -http=:6060

@@ -1,1 +1,3 @@
-module github.com/mhoc/msgoraph
+module github.com/dcormier/msgoraph
+
+go 1.13

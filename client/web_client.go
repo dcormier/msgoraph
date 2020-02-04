@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mhoc/msgoraph/scopes"
+	"github.com/dcormier/msgoraph/scopes"
 )
 
 var _ Client = (*Web)(nil)

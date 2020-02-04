@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/mhoc/msgoraph/scopes"
+	"github.com/dcormier/msgoraph/scopes"
 )
 
 func TestHeadlessClientInitialization(t *testing.T) {

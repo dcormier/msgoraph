@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/mhoc/msgoraph/common"
+	"github.com/dcormier/msgoraph/common"
 )
 
 // GraphAPIRootURL is the root url that the Graph API is hosted on.

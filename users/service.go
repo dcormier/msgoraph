@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/mhoc/msgoraph/client"
+	"github.com/dcormier/msgoraph/client"
 )
 
 // CreateUserRequest is all the available args you can set when creating a user.
